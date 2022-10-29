@@ -1,0 +1,360 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+body h1 {
+  font-size: 3.5em;
+}
+body h2 {
+  font-size: 2.5em;
+}
+body h3 {
+  font-size: 2em;
+}
+body p {
+  font-size: 1.25em;
+}
+body ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #eaf0f8;
+}
+header .logo {
+  font-family: "Anton", sans-serif !important;
+  padding: 25px 30px;
+  font-size: 2.5em;
+  color: #5481e4;
+  cursor: pointer;
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 25px;
+  position: relative;
+}
+header a {
+  padding: 10 px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #5481e4;
+  border-radius: 4px;
+}
+header a:hover {
+  background-color: #c4e3f3;
+  color: #395b81;
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 70vh;
+  background-image: url(../img/foto2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#hero h1 {
+  color: #000103;
+  text-shadow: 3px 3px whitesmoke;
+  background-color: rgba(255, 255, 255, 0.3019607843);
+  backdrop-filter: blur 3px;
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#somos-tramirap .container {
+  text-align: center;
+  padding: 70px 15px;
+}
+#somos-tramirap .img-container {
+  display: none;
+}
+#somos-tramirap .color-acento {
+  color: #5481e4;
+}
+
+#nuestros-servicios .container {
+  background: linear-gradient(to right, #f2f2fa, white, white, #f2f2fa);
+  text-align: center;
+  padding: 100px 0px;
+}
+#nuestros-servicios p {
+  display: none;
+}
+#nuestros-servicios .experiencia {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+#nuestros-servicios .rapidez {
+  padding: 30px;
+  margin-bottom: 30px;
+}
+#nuestros-servicios .atencion {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#caracteristicas {
+  -webkit-text-stroke: 1px black;
+}
+#caracteristicas .container {
+  text-align: center;
+  padding: 150px 0px;
+  background-image: url(../img/foto6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#caracteristicas li {
+  color: white;
+  margin: 15px 5px;
+  font-weight: 900;
+  text-shadow: #cecbcb 2px 3px;
+}
+#caracteristicas ul {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#clientes {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+#clientes h2 {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+#pie-pagina {
+  background-color: #eaf0f8;
+}
+#pie-pagina .logo {
+  font-size: 2em;
+  font-family: "Anton", sans-serif !important;
+  text-align: center;
+  text-decoration: none;
+}
+#pie-pagina a {
+  text-decoration: none;
+}
+#pie-pagina .box2 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#pie-pagina .red-social {
+  text-align: center;
+}
+#pie-pagina .red-social a {
+  margin: 10px;
+  background-color: #dfcdf0;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  display: flex;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+#pie-pagina .grupo-2 {
+  background-color: #395b81;
+  text-align: center;
+  color: #e6e7fc;
+  height: 40px;
+  margin-top: 5px;
+}
+
+@media (min-width: 720px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header nav {
+    flex-direction: row;
+    padding: 10px;
+  }
+  header a {
+    padding: 10px;
+  }
+  #somos-tramirap .img-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+  }
+  #somos-tramirap .texto {
+    padding: 30px;
+    margin-right: 100px;
+    position: absolute;
+    top: 650px;
+    font-weight: 700;
+    text-align: center;
+  }
+  h2 {
+    font-weight: 800;
+    text-shadow: black 1px 1px;
+  }
+  #nuestros-servicios {
+    display: flex;
+  }
+  #nuestros-servicios .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  #nuestros-servicios p {
+    text-align: center;
+    display: block;
+  }
+  #nuestros-servicios h3:hover {
+    transition: all 1s;
+    transform: scale(0.9, 0.9);
+  }
+  #nuestros-servicios .experiencia {
+    border-right: solid #5481e4;
+    width: 500px;
+    height: 300px;
+  }
+  #nuestros-servicios .rapidez {
+    border-right: solid #5481e4;
+    width: 500px;
+    height: 300px;
+  }
+  #nuestros-servicios .atencion {
+    width: 500px;
+    height: 300px;
+  }
+  #pie-pagina .grupo-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #pie-pagina .box2 .tel {
+    font-weight: 300;
+    font-size: medium;
+  }
+  #service .container {
+    padding: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "gestion gestion gestionimg" "gestion gestion gestionimg" "fletesimg fletes fletes" "fletesimg fletes fletes";
+  }
+  #service .gestion {
+    grid-area: gestion;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+  }
+  #service .gestionimg {
+    grid-area: gestionimg;
+  }
+  #service .gestiones {
+    width: 400px;
+    height: 50vh;
+  }
+  #service .fletesimg {
+    grid-area: fletesimg;
+  }
+  #service .flete {
+    width: 400px;
+    height: 50vh;
+  }
+  #service .fletes {
+    grid-area: fletes;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+  }
+}
+#hero2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 70vh;
+  background-image: url(../img/Catamarca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 50px;
+}
+#hero2 h1 {
+  color: #000103;
+  text-shadow: 2px 2px whitesmoke;
+  background-color: rgba(255, 255, 255, 0.3019607843);
+  backdrop-filter: blur 3px;
+  -webkit-backdrop-filter: blur(3px);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#tabla {
+  margin-bottom: 50px;
+  padding: 30px;
+}
+#tabla .texto2 {
+  text-align: center;
+  font-size: x-large;
+  margin-top: 50px;
+}
+
+#contactos .consulta1 {
+  text-align: center;
+  text-shadow: 1px 1px #eaf0f8;
+  text-transform: uppercase;
+  padding: 30px;
+}
+#contactos .contact2 {
+  padding: 30px;
+}
+#contactos .gps {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+#service .container {
+  text-align: center;
+  padding: 40px;
+}
+#service .gestiones {
+  width: 300px;
+  height: 40vh;
+  margin: 30px auto;
+}
+#service .flete {
+  width: 300px;
+  height: 40vh;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,27 @@
+$colorbg:#eaf0f8;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Oswald', sans-serif;
+    h1{ font-size: 3.5em;}
+    h2{ font-size: 2.5em;}
+    h3{ font-size: 2em;}
+    p{font-size: 1.25em;}
+    ul{ list-style: none;}
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+@import "header";
+@import "main";
+@import "footer";
+@import "mediaqueries";
+@import "cobertura";
+@import "contacto";
+@import "servicios";

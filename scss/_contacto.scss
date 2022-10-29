@@ -1,0 +1,18 @@
+#contactos{
+    .consulta1{
+        text-align: center;
+        text-shadow: 1px 1px $colorbg;
+        text-transform: uppercase;
+        padding: 30px;
+    }
+    .contact2{
+        padding: 30px;
+    }
+    .gps{
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+}      
+

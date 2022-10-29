@@ -1,0 +1,122 @@
+@media (min-width: 720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding: 10px;
+    }
+    header a{
+        padding: 10px;
+    }
+    #somos-tramirap .img-container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.4;
+    }
+    #somos-tramirap .texto{
+        padding: 30px;
+        margin-right: 100px;
+        position: absolute;
+        top: 650px;
+        font-weight: 700;
+        text-align: center;
+    }
+    h2{
+        font-weight: 800;
+        text-shadow: black 1px 1px;
+    }
+
+    #nuestros-servicios{
+        display: flex;
+        
+    }
+    #nuestros-servicios .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        
+    }
+    #nuestros-servicios p{
+        text-align: center;
+        display: block;
+    }
+    #nuestros-servicios h3{
+        &:hover{
+            transition: all 1s;
+            transform: scale(0.9,0.9);
+
+        }
+    }
+    #nuestros-servicios .experiencia{
+        border-right: solid #5481e4;
+        width: 500px;
+        height: 300px;
+        
+    }
+    #nuestros-servicios .rapidez{
+        border-right: solid #5481e4;
+        width: 500px;
+        height: 300px;
+    }
+    #nuestros-servicios .atencion{
+        width: 500px;
+        height: 300px;
+    }
+    #pie-pagina .grupo-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #pie-pagina .box2 .tel{
+        font-weight: 300;
+        font-size: medium;
+    }
+    #service .container {
+            padding: 50px;
+            margin-bottom: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+                "gestion gestion gestionimg"
+                "gestion gestion gestionimg"
+                "fletesimg fletes fletes"
+                "fletesimg fletes fletes";
+        }
+      
+        #service .gestion{
+            grid-area: gestion;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }  
+      
+        #service .gestionimg {
+            grid-area: gestionimg;
+        }
+        #service .gestiones{
+            width: 400px;
+            height: 50vh;
+        }
+      
+        #service .fletesimg {
+            grid-area: fletesimg;
+        }
+        #service .flete{
+            width: 400px;
+            height: 50vh;
+        }  
+        #service .fletes {
+            grid-area: fletes;
+            text-align: center;
+            padding: 30px;
+            margin-top: 40px;
+        }
+    }

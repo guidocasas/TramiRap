@@ -1,0 +1,32 @@
+#hero2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 70vh;
+        background-image: url(../img/Catamarca.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        margin-bottom: 50px;
+    
+    h1{
+        color: #000103;
+        text-shadow: 2px 2px whitesmoke;
+        background-color: #ffffff4d;
+        backdrop-filter:blur (3px);
+        -webkit-backdrop-filter: blur(3px);
+        border-radius: 10px;
+        padding: 10px;}
+}
+#tabla{
+    margin-bottom: 50px;
+    padding: 30px;
+
+    .texto2{
+        text-align: center;
+        font-size: x-large;
+        margin-top: 50px;
+    }
+}

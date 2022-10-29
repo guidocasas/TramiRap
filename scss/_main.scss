@@ -1,0 +1,89 @@
+#hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 70vh;
+        background-image: url(../img/foto2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    
+    h1{
+        color: #000103;
+        text-shadow: 3px 3px whitesmoke;
+        background-color: #ffffff4d;
+        backdrop-filter:blur (3px);
+            -webkit-backdrop-filter: blur(3px);
+        border-radius: 10px;
+        padding: 10px;
+    }
+}
+
+#somos-tramirap{
+    .container{
+        text-align: center;
+        padding: 70px 15px;} 
+    
+    .img-container{
+        display: none;
+    }
+    .color-acento{
+        color:#5481e4;
+    }
+}
+#nuestros-servicios{
+    .container{
+    background: linear-gradient(to right, #f2f2fa,white, white, #f2f2fa);
+    text-align: center;
+    padding: 100px 0px;}
+
+    p{
+    display: none;}
+
+    .experiencia{
+    padding: 30px;
+    margin-bottom: 20px;}
+
+    .rapidez{
+    padding: 30px;
+    margin-bottom: 30px;}
+
+    .atencion{
+    padding: 30px;
+    margin-bottom: 20px;
+    }
+}
+
+#caracteristicas{
+    .container{
+    text-align: center;
+    padding: 150px 0px;
+    background-image: url(../img/foto6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;}
+
+    li{
+    color: white;
+    margin: 15px 5px;
+    font-weight: 900;
+    text-shadow: #cecbcb 2px 3px;}
+    -webkit-text-stroke: 1px black;
+    
+
+    ul{
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);}
+}
+
+#clientes{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+
+    h2{
+    padding: 10px;
+    margin-bottom: 20px;}
+}
